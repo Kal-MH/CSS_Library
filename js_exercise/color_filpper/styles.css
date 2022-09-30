@@ -182,7 +182,8 @@ Nav
 nav {
   background: var(--clr-white);
   height: 3rem;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   box-shadow: var(--dark-shadow);
 }
@@ -211,6 +212,11 @@ nav a {
 }
 nav a:hover {
   color: var(--clr-primary-5);
+}
+
+nav .home {
+  display : inline-block;
+  margin-left : 1rem;
 }
 /*
 =============== 

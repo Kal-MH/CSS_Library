@@ -13,7 +13,7 @@ function generateRandomColor() {
 
 /* btn click -> change span text */
 function handleBtnClick(e) {
-    let color = colorObj[generateRandomColor()] || generateRandomColor();
+    let color = generateRandomColor();
 
     spanColor.innerText = color;
     main.style.background = color;

@@ -1,0 +1,19 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(206, 33%, 96%);
+}
+
+div a {
+    display: inline-block;
+    background : #0bd;
+    color : #fff;
+    padding : 2rem 1rem;
+    border-radius: 6px;
+}
